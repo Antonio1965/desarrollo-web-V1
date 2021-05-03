@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Pagina de contactos</title>
+
+</head>
+
+<body class="body">
+    <!-- Cabecera de la pagina  -->
+    <div class="conteiner">
+        <div class="conteiner__logo">
+
+            <a class="item__inicio" href="index.html"><img class="logo" src="./images/logo.webp" alt="Logo"></a>
+        </div>
+        <h1 class="titulo"> Portfolio de TSUTSUMI, José Antonio</h1>
+        <div class="list">
+            <!-- <li class="list__item"><a class="item__inicio" href="#">Inicio</a></li> -->
+            <li class="list__item"><a class="item__acerca" href="./sobre-mi.html">Sobre de mi</a></li>
+            <li class="list__item"><a class="item__proyectos" href="./proyecto.html">Proyectos</a></li>
+            <li class="list__item"><a class="item__galeria" href="./galeria.html"">Galerias </a></li>
+            <li class=" list__item"><a class="item__contacto" href="./contacto.html">Contactos</a></li>
+        </div>
+    </div>
+    <div class="contactos">
+        <h2 class="contactos__titulo">Contactos:</h2>
+        <!-- formulario  -->
+        <form class="contactos__formulario" action="#">
+            <fieldset class="contactos__control">
+                <legend class="contactos__leyenda">Información Personal</legend>
+                <!-- Radio boton -->
+                <input class="contactos__input" type="radio" required value="opcion1" name="genero" id="masculino"
+                    checked>
+                <label class="contactos__label" for="masculino">Masculino</label>
+                <br>
+                <input class="contactos__input" type="radio" required value="opcion2" name="genero" id="femenino">
+                <label class="contactos__label" for="femenino">Femenino</label>
+                <br>
+                <input class="contactos__input" type="radio" required value="opcion3" name="genero" id="otros">
+                <label class="contactos__label">Otros</label>
+                <br>
+                <br>
+                <!-- Input text -->
+                <label class="contactos__label" for="nombre">Nombre</label>
+                <input class="contactos__input" type="text" minlength="3" required name="nombre" id="nombre">
+                <br>
+                <br>
+                <label class="contactos__label" for="nombre">Apellido</label>
+                <input class="contactos__input" type="text" minlength="3" required name="apellido" id="apellido">
+                <br>
+                <br>
+                <!-- input email -->
+                <label class="contactos__label" for="nombre">Correo</label>
+                <input class="contactos__input" type="email" required placeholder="Ej. jose@gmail.com" name="email"
+                    id="email">
+                <br>
+                <br>
+                <div id="terminos">
+                    " Desea recibir nuestro correo??"
+                    <input class="contactos__input" type="checkbox" name="acepta" value="1">
+
+                </div>
+                <!-- Cuadro de mensajes -->
+                <label class="contactos__label" for="mensaje" class="comentarios">Comentarios:</label>
+                <br>
+                <br>
+                <!-- textarea -->
+                <textarea class="contactos__textarea" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <!-- boton para enviar y resetear o borrar -->
+                <button class="contactos__boton" type="submit">Enviar</button>
+                <button class="contactos__boton" type="reset">Borrar</button>
+            </fieldset>
+        </form>
+        <br>
+        <a class="enlace" href="index.html">Volver a Inicio</a>
+    </div>
+
+    <body>
+        <!-- Pie de la pagina  -->
+        <footer class="footer">
+            <div class="footer__conteiner">
+                <!-- Redes sociales. -->
+                <h2 class="redes_sociales">Redes Sociales</h2>
+                <ul class="footer__lista">
+                    <li class="footer__item"><a href="https://www.facebook.com/"><i
+                                class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="footer__item"><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
+                    <li class="footer__item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="footer__item"><a href="https://www.github.com/"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+            <hr />
+            <p class="footer__text">Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de 2021.</p>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Proyectos con flex-box en cabecera y pie de pagina</title>
+
+</head>
+
+<body class="body">
+    <!-- Cabecera de la pagina  -->
+    <div class="conteiner">
+        <div class="conteiner__logo">
+
+            <a class="item__inicio" href="#"><img class="logo" src="./images/logo.webp" alt="Logo"></a>
+        </div>
+        <h1 class="titulo"> Portfolio de TSUTSUMI, José Antonio</h1>
+        <div class="list">
+            <!-- <li class="list__item"><a class="item__inicio" href="#">Inicio</a></li> -->
+            <li class="list__item"><a class="item__acerca" href="./sobre-mi.html">Sobre de mi</a></li>
+            <li class="list__item"><a class="item__proyectos" href="./proyecto.html">Proyectos</a></li>
+            <li class="list__item"><a class="item__galeria" href="./galeria.html">Galerias </a></li>
+            <li class="list__item"><a class="item__contacto" href="./contacto.html">Contactos</a></li>
+        </div>
+    </div>
+    <!-- Pagina principal -->
+    <main class="contenedor">
+        <!-- página central del web -->
+        <h1 class="titulo">Portfolio Personal de TSUTSUMI, Jose Antonio</h1>
+        <div class="contenedor__uno">
+            <!-- se coloca un video presonal, esto a modo de ejemplo -->
+            <iframe class="video1" src="https://www.youtube.com/embed/KVakLLMBQxg"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br>
+            <a class="enlace" href="sobre-mi.html">Enlace sobre de mi</a>
+            <p class="contenedor__uno--text">
+                Estudiante de CoderHouse, realizando el curso de Desarrollo Web.
+            </p>
+        </div>
+        <br>
+        <div class="contenedor__dos">
+            <iframe class="video2" src="https://www.youtube.com/embed/pd7JGO2A3so"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h3 class="proyecto1">Proyecto 1</h3>
+            <h4 class="proyecto1__titulo">Descripción :</h4>
+            <p class="proyecto1__titulo--text">El proyecto consiste en realizar un pagina , desarrollo Web utilizando
+                heraamientas como HTML y CSS , practicas
+                realizada en el curso de CoderHouse.</p>
+            <a class="enlace" href="proyecto.html">Enlace al proyecto</a>
+            <br>
+        </div>
+        <div class="contenedor__tres">
+            <iframe class="video3" src="https://www.youtube.com/embed/ll6xSsbPg3k"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h3 class="proyecto2">Proyecto 2</h3>
+            <h4 class="proyecto2__titulo">Descripción :</h4>
+            <p class="proyecto2__titulo--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus architecto
+                qui
+                cumque. Delectus nemo quaerat
+                atque ducimus corporis totam recusandae quis sequi facilis tempore ipsa cum placeat similique, dicta sit
+                debitis at et blanditiis alias quas voluptatum iusto accusantium! Eaque?</p>
+            <br>
+            <a class="enlace" href="proyecto.html">Enlace al proyecto</a>
+        </div>
+        <div class="contenedor__cuatro">
+            <img class="imagen1" src="./images/imagen3.jpg" style="max-width:500px" loading="lazy"
+                alt="proyecto mobile">
+            <h3 class="proyecto3">Proyecto 3</h3>
+            <h4 class="proyecto3__titulo">Descripción :</h4>
+            <p class="proyecto3__titulo--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatem
+                corporis tenetur dolor maiores
+                laudantium quis! Ab culpa at minima sed ipsa voluptas dolore minus modi enim, nisi sequi! Numquam
+                quisquam
+                amet voluptatum debitis ea asperiores quo quibusdam corporis? Est?</p>
+            <br>
+            <a class="enlace" href="proyecto.html">Enlace al proyecto</a>
+            <br>
+        </div>
+        <!-- Pie de la pagina  -->
+        <footer class="footer">
+            <div class="footer__conteiner">
+                <!-- Redes sociales. -->
+                <h2 class="redes_sociales">Redes Sociales</h2>
+                <ul class="footer__lista">
+                    <li class="footer__item"><a href="https://www.facebook.com/"><i
+                                class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="footer__item"><a href="https://www.yahoo.com/"><i class="fab fa-yahoo"></i></a></li>
+                    <li class="footer__item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="footer__item"><a href="https://www.github.com/"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+            <hr />
+            <p class="footer__text">Todos los derechos reservados - Tsutsumi Jose Antonio- Abril de 2021.</p>
+        </footer>
+
+
+</body>
+
+</html>
